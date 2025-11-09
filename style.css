@@ -1,0 +1,43 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    width: 1440px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400, 700;
+    display: flex;
+}
+.parent {
+    width: 320px;
+    height: 475px;
+    display: flex;
+    margin: 242.5px 560px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0px 25px 40px hsla(213, 10%, 18%, 0.2);
+}
+.text {
+   
+    display: flex;
+    width: 288px;
+    height: 131px;
+}
+h4 { 
+    padding-top: 24px;
+    display: flex;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 25px 40px hsla(213, 10%, 18%, 0.2);;
+}
+img {
+    display: flex;
+    width: 288px;
+    height: 288px;
+}
+p {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    font-size: 15px;
+    
+}
